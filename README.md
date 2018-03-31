@@ -15,6 +15,14 @@ Finding UK government political advisors in the absence of an official record
 
 [3]: https://www.almcms.com/contrib/content/uploads/sites/292/2017/08/HiQInjunction.pdf
 
+## Non-sources
+
+- The only relevant result on data.gov.uk is for SpAds ("[Special Advisers working in the UK Government][SpAd_data_gov]") and the quantity/quality is poor (I would go so far as to say useless)
+  - A better dataset was put out by the 'The Consitution Unit' at UCL ([Excel spreadsheet available here][SpAd_data_UCL]), from 1979-2013
+
+[SpAd_data_gov]: https://data.gov.uk/dataset/special-advisers
+[SpAd_data_UCL]: https://www.ucl.ac.uk/constitution-unit/research/government/special-advisers
+
 ## Approach
 
 - As a first attempt, I'm going to set up a query for the phrase "minister adviser" and limit the results to the UK
@@ -23,3 +31,11 @@ Finding UK government political advisors in the absence of an official record
   - obviously, this will also miss anyone who simply does not use LinkedIn, but there does not seem to be an official record so I'll make do!
 - The profile URLs will be collected, from which I should be able to discern the time period in which they were an adviser
   - the next step is then to determine which adviser this corresponds to, which should be possible through Wikipedia/Wikidata
+
+## TODO
+
+- [ ] try out a LinkedIn query tool/scraper
+- [ ] sort the results into ministries/departments
+  - UCL SpAd database or Wikipedia/Wikidata may provide guidance here
+- [ ] map the advisers' time period and department to the sitting minister
+- [ ] look at (?) the institution the advisers are currently working at (etc.)
