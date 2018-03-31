@@ -19,6 +19,7 @@ Finding UK government political advisors in the absence of an official record
 
 - The only relevant result on data.gov.uk is for SpAds ("[Special Advisers working in the UK Government][SpAd_data_gov]") and the quantity/quality is poor (I would go so far as to say useless)
   - A better dataset was put out by the 'The Consitution Unit' at UCL ([Excel spreadsheet available here][SpAd_data_UCL]), from 1979-2013
+    - this has been added to the `data` directory for good measure (`spad-public-database.tsv`)
 
 [SpAd_data_gov]: https://data.gov.uk/dataset/special-advisers
 [SpAd_data_UCL]: https://www.ucl.ac.uk/constitution-unit/research/government/special-advisers
