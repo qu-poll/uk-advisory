@@ -5,15 +5,26 @@ Finding UK government political advisors in the absence of an official record
 ## Sources
 
 - LinkedIn is the primary source for now
-  - various scrapers in Python exist, e.g. [here][1] and [here][2]
+- Following the hiQ court case (in which LinkedIn was ordered not to restrict or hinder in any way the collection of data made public through its platform), I don't expect there to be any issue with regards to the collection of this information.
+  - [injunction source][injunc] (PDF)
+
+[injunc]: https://www.almcms.com/contrib/content/uploads/sites/292/2017/08/HiQInjunction.pdf
+
+
+### Scraper libraries
+
+- Various scrapers in Python exist:
+  - [`junks/linkedInScraper`][1] (which seems outdated)
+  - [`eracle/linkedin`][2] (which seems a bit too 'outgoing', aiming for company visibility rather than simply info retrieval)
+  - [`joeyism/linkedin_scraper`][3] (which seems to be kept up to date and nicely object-oriented, with helpful documentation)
+  - [`toxtli/linkedin-profile-scraper`][4] (which is simple but undocumented, [allegedly] returns JSON)
+  - [`python-linkedin-scraping`][5] (which is undocumented but has a help usage flag, again seems simple)
 
 [1]: https://github.com/junks/linkedInScraper
 [2]: https://github.com/eracle/linkedin
-
-- Following the hiQ court case (in which LinkedIn was ordered not to restrict or hinder in any way the collection of data made public through its platform), I don't expect there to be any issue with regards to the collection of this information.
-  - [injunction source][3] (PDF)
-
-[3]: https://www.almcms.com/contrib/content/uploads/sites/292/2017/08/HiQInjunction.pdf
+[3]: https://github.com/joeyism/linkedin_scraper
+[4]: https://github.com/toxtli/linkedin-profile-scraper
+[5]: https://github.com/cwirz/python-linkedin-scraping
 
 ## Non-sources
 
