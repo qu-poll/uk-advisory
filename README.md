@@ -17,12 +17,22 @@ Finding UK government political advisors in the absence of an official record
 
 ## Non-sources
 
-- The only relevant result on data.gov.uk is for SpAds ("[Special Advisers working in the UK Government][SpAd_data_gov]") and the quantity/quality is poor (I would go so far as to say useless)
-  - A better dataset was put out by the 'The Consitution Unit' at UCL ([Excel spreadsheet available here][SpAd_data_UCL]), from 1979-2013
+- The government publishes [SpAd data releases][SpAd_data_releases] which are useful but not my focus
+  - Another SpAd dataset was put out by the 'The Consitution Unit' at UCL ([Excel spreadsheet available here][SpAd_data_UCL]), from 1979-2013
     - this has been added to the `data` directory for good measure (`spad-public-database.tsv`)
+  - data.gov.uk has "[Special Advisers working in the UK Government][SpAd_data_gov]" but it's very poor quantity/quality
+- the concept of 'adviser' is somewhat ill defined, hence the lack of standard records
+  - Ministries, departments, and government agencies, all tend to have boards with [non-executive directors][NED_wiki], and sometimes advisory boards.
+  - Public appointments of this kind are often found on the Cabinet Office [recruitment portal][CO_portal] (but it doesn't seem tied to historical records)
+- It's probably possible to obtain these records via FOI requests (but I'm not sure how easy/messy/expensive that would be
+- There are also groups whose membership lists are available [here][gov_groups] (but these do not all go back very far historically)
 
+[SpAd_data_releases]: https://www.gov.uk/government/collections/special-adviser-data-releases-numbers-and-costs
 [SpAd_data_gov]: https://data.gov.uk/dataset/special-advisers
 [SpAd_data_UCL]: https://www.ucl.ac.uk/constitution-unit/research/government/special-advisers
+[NED_wiki]: https://en.wikipedia.org/wiki/Non-executive_director
+[CO_portal]: https://publicappointments.cabinetoffice.gov.uk/search-appointments/
+[gov_groups]: https://www.gov.uk/government/groups
 
 ## Approach
 
